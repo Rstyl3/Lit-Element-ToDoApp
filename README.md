@@ -134,3 +134,39 @@ Unexpected character in comment end. Expected "-->"
 ```
 
 See https://github.com/Polymer/polymer-cli/issues/779.
+
+## Try Lit-element without polymer?
+
+<code>index.html</code>
+```html
+<!doctype html>
+<html>
+<head>
+  <!-- Polyfills only needed for Firefox and Edge. -->
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@latest/webcomponents-loader.js"></script>
+</head>
+<body>
+  <!-- Works only on browsers that support Javascript modules like
+       Chrome, Safari, Firefox 60, Edge 17 -->
+  <script type="module">
+    import {LitElement, html} from 'https://unpkg.com/@polymer/lit-element/lit-element.js?module';
+    
+    class MyElement extends LitElement {
+      static get properties() {
+        return {
+          mood: {type: String}
+        }
+      }
+      render() {
+        return html`<style> .mood { color: green; } </style>
+          Web Components are <span class="mood">${this.mood}</span>!`;
+      }
+    }
+    customElements.define('my-element', MyElement);
+  </script>
+  
+  <my-element mood="great"></my-element>
+  
+</body>
+</html>
+```
