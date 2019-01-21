@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["index.html","2130384d4fa85dec33c9adb269ad3a0c"],["src/ToDo.js","9100aae1680634ee1926c58a0d873231"]];
+var precacheConfig = [["index.html","2130384d4fa85dec33c9adb269ad3a0c"],["src/ToDo.js","0f7d613ece9e9d258ab8a2a2b4e479c8"]];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 

@@ -10,50 +10,50 @@ define(["exports"], function (_exports) {
   _exports.TemplateInstance = _exports.templateCaches$1 = _exports.templateCaches = _exports.render$1 = _exports.render$2 = _exports.render = _exports.parts$1 = _exports.parts = _exports.EventPart$1 = _exports.EventPart = _exports.PropertyPart$1 = _exports.PropertyPart = _exports.PropertyCommitter$1 = _exports.PropertyCommitter = _exports.BooleanAttributePart$1 = _exports.BooleanAttributePart = _exports.NodePart$1 = _exports.NodePart = _exports.AttributePart$1 = _exports.AttributePart = _exports.AttributeCommitter$1 = _exports.AttributeCommitter = _exports.isPrimitive$1 = _exports.isPrimitive = _exports.nothing$1 = _exports.nothing = _exports.noChange$1 = _exports.noChange = _exports.removeNodes$1 = _exports.removeNodes = _exports.reparentNodes$1 = _exports.reparentNodes = _exports.isCEPolyfill = _exports.isDirective$1 = _exports.isDirective = _exports.directive$1 = _exports.directive = _exports.defaultTemplateProcessor$1 = _exports.defaultTemplateProcessor = _exports.DefaultTemplateProcessor$1 = _exports.DefaultTemplateProcessor = _exports.repeat = _exports.LitElement = _exports.SVGTemplateResult$2 = _exports.SVGTemplateResult$1 = _exports.SVGTemplateResult = _exports.TemplateResult$3 = _exports.TemplateResult$2 = _exports.TemplateResult$1 = _exports.TemplateResult = _exports.svg$2 = _exports.svg$1 = _exports.svg = _exports.html$2 = _exports.html$1 = _exports.html = _exports.UpdatingElement$1 = _exports.UpdatingElement = _exports.notEqual$1 = _exports.notEqual = _exports.defaultConverter$1 = _exports.defaultConverter = _exports.eventOptions$1 = _exports.eventOptions = _exports.queryAll$1 = _exports.queryAll = _exports.query$1 = _exports.query = _exports.property$1 = _exports.property = _exports.customElement$1 = _exports.customElement = _exports.css$1 = _exports.css = _exports.CSSResult$1 = _exports.CSSResult = _exports.supportsAdoptingStyleSheets$1 = _exports.supportsAdoptingStyleSheets = _exports.$ToDoItem = _exports.$ToDoItemStyles = _exports.$ToDo = _exports.$ToDoStyles = _exports.$litHtml = _exports.$template = _exports.$templateResult = _exports.$templateInstance = _exports.$templateFactory = _exports.$shadyRender = _exports.$render = _exports.$parts = _exports.$part = _exports.$modifyTemplate = _exports.$dom = _exports.$directive = _exports.$defaultTemplateProcessor = _exports.$repeat = _exports.$litElement = _exports.$updatingElement = _exports.$decorators = _exports.$cssTag = void 0;
   _exports.ToDoItem = _exports.style$1 = _exports.ToDo = _exports.style = _exports.lastAttributeNameRegex = _exports.createMarker$1 = _exports.createMarker = _exports.isTemplatePartActive$1 = _exports.isTemplatePartActive = _exports.Template$1 = _exports.Template = _exports.boundAttributeSuffix = _exports.markerRegex = _exports.nodeMarker = _exports.marker = _exports.TemplateInstance$1 = void 0;
 
-  function _templateObject5_b585e7f01b3111e9ae77db14587d8910() {
+  function _templateObject5_f18239e01d5511e9ba70cb973af70750() {
     var data = babelHelpers.taggedTemplateLiteral(["\n                  <to-do-item\n                    item=", "\n                    .deleteItem=", "\n                  ></to-do-item>\n                "]);
 
-    _templateObject5_b585e7f01b3111e9ae77db14587d8910 = function _templateObject5_b585e7f01b3111e9ae77db14587d8910() {
+    _templateObject5_f18239e01d5511e9ba70cb973af70750 = function _templateObject5_f18239e01d5511e9ba70cb973af70750() {
       return data;
     };
 
     return data;
   }
 
-  function _templateObject4_b585e7f01b3111e9ae77db14587d8910() {
+  function _templateObject4_f18239e01d5511e9ba70cb973af70750() {
     var data = babelHelpers.taggedTemplateLiteral(["\n      ", "\n      <div class=\"ToDo\">\n        <h1>LitElement</h1>\n        <h1 class=\"ToDo-Header\">LitElement To Do</h1>\n        <div class=\"ToDo-Container\">\n          <div class=\"ToDo-Content\">\n            ", "\n          </div>\n          <div>\n            <input\n              type=\"text\"\n              .value=", "\n              @input=", "\n              @keypress=", "\n            />\n            <button\n              class=\"ToDo-Add\"\n              @click=", "\n            >+</button>\n          </div>\n        </div>\n      </div>\n      "]);
 
-    _templateObject4_b585e7f01b3111e9ae77db14587d8910 = function _templateObject4_b585e7f01b3111e9ae77db14587d8910() {
+    _templateObject4_f18239e01d5511e9ba70cb973af70750 = function _templateObject4_f18239e01d5511e9ba70cb973af70750() {
       return data;
     };
 
     return data;
   }
 
-  function _templateObject3_b585e7f01b3111e9ae77db14587d8910() {
+  function _templateObject3_f18239e01d5511e9ba70cb973af70750() {
     var data = babelHelpers.taggedTemplateLiteral(["\n               ", "\n               <div class=\"ToDoItem\">\n                 <p class=\"ToDoItem-Text\">", "</p>\n                 <button class=\"ToDoItem-Delete\"\n                   @click=", ">-\n                 </button>\n               </div>\n        "]);
 
-    _templateObject3_b585e7f01b3111e9ae77db14587d8910 = function _templateObject3_b585e7f01b3111e9ae77db14587d8910() {
+    _templateObject3_f18239e01d5511e9ba70cb973af70750 = function _templateObject3_f18239e01d5511e9ba70cb973af70750() {
       return data;
     };
 
     return data;
   }
 
-  function _templateObject2_b585e7f01b3111e9ae77db14587d8910() {
+  function _templateObject2_f18239e01d5511e9ba70cb973af70750() {
     var data = babelHelpers.taggedTemplateLiteral(["\n <style>\n .ToDoItem {\n     display: flex;\n     justify-content: center;\n     align-items: center;\n }\n .ToDoItem-Text {\n     width: 90%;\n     background-color: white;\n     border: 1px solid lightgrey;\n     padding: 12px;\n     magin-right: 10px;\n }\n .ToDoItem-Delete {\n    width: 35px;\n    height: 35px;\n    cursor: pointer;\n    background: #ff7373;\n    border-radius: 10px;\n    box-shadow: 1px 1px 1px #c70202;\n    color: white;\n    font-size: 18px;\n    margin-right: 5px;\n }\n .ToDoItem-Delete:hover {\n    box-shadow: none;\n    margin-top: 1px;\n    margin-left: 1px;\n }\n </style>\n"]);
 
-    _templateObject2_b585e7f01b3111e9ae77db14587d8910 = function _templateObject2_b585e7f01b3111e9ae77db14587d8910() {
+    _templateObject2_f18239e01d5511e9ba70cb973af70750 = function _templateObject2_f18239e01d5511e9ba70cb973af70750() {
       return data;
     };
 
     return data;
   }
 
-  function _templateObject_b585e7f01b3111e9ae77db14587d8910() {
+  function _templateObject_f18239e01d5511e9ba70cb973af70750() {
     var data = babelHelpers.taggedTemplateLiteral(["\n  <style>\n    .Logo {\n      width: 50px;\n      position: relative;\n      top: 50px;\n    }\n    .ToDo {\n      text-align: center;\n      border: 1px solid white;\n      width: 80vw;\n      height: auto;\n      box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.5);\n      background: #f6f6f6;\n      padding-bottom: 60px;\n      margin: 40px auto;\n    }\n    .ToDo-Header {\n      color: black;\n      font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;\n      font-weight: 400;\n      text-transform: uppercase;\n      margin: 70px auto 30px;\n    }\n    .ToDo-Add {\n      color: white;\n      font-size: 2em;\n      width: 40px;\n      height: 40px;\n      padding: 0px;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      cursor: pointer;\n      background: #73ff73;\n      border-radius: 10px;\n      box-shadow: 1px 1px 1px #47a947;\n      margin: 20px auto 0;\n    }\n    .ToDo-Add:hover {\n      box-shadow: none;\n      margin-left: calc(auto + 1px);\n    }\n    .ToDo-Container {\n      width: 80%;\n      margin: 0 auto;\n    }\n    input {\n      width: 60%;\n      padding: 10px;\n      font-size: 1em;\n      margin: 10px auto;\n      box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.3)\n    }\n  </style>\n"]);
 
-    _templateObject_b585e7f01b3111e9ae77db14587d8910 = function _templateObject_b585e7f01b3111e9ae77db14587d8910() {
+    _templateObject_f18239e01d5511e9ba70cb973af70750 = function _templateObject_f18239e01d5511e9ba70cb973af70750() {
       return data;
     };
 
@@ -3773,13 +3773,13 @@ define(["exports"], function (_exports) {
     repeat: repeat
   };
   _exports.$repeat = repeat$1;
-  var style = html(_templateObject_b585e7f01b3111e9ae77db14587d8910());
+  var style = html(_templateObject_f18239e01d5511e9ba70cb973af70750());
   _exports.style = style;
   var ToDoStyles = {
     style: style
   };
   _exports.$ToDoStyles = ToDoStyles;
-  var style$1 = html(_templateObject2_b585e7f01b3111e9ae77db14587d8910());
+  var style$1 = html(_templateObject2_f18239e01d5511e9ba70cb973af70750());
   _exports.style$1 = style$1;
   var ToDoItemStyles = {
     style: style$1
@@ -3799,7 +3799,7 @@ define(["exports"], function (_exports) {
     babelHelpers.createClass(ToDoItem, [{
       key: "render",
       value: function render() {
-        return html(_templateObject3_b585e7f01b3111e9ae77db14587d8910(), style$1, this.item, this.deleteItem);
+        return html(_templateObject3_f18239e01d5511e9ba70cb973af70750(), style$1, this.item, this.deleteItem);
       }
     }], [{
       key: "properties",
@@ -3900,8 +3900,8 @@ define(["exports"], function (_exports) {
       value: function render() {
         var _this11 = this;
 
-        return html(_templateObject4_b585e7f01b3111e9ae77db14587d8910(), style, repeat(this.list, function (item, key) {
-          return html(_templateObject5_b585e7f01b3111e9ae77db14587d8910(), item.todo, _this11.deleteItem.bind(_this11, key));
+        return html(_templateObject4_f18239e01d5511e9ba70cb973af70750(), style, repeat(this.list, function (item, key) {
+          return html(_templateObject5_f18239e01d5511e9ba70cb973af70750(), item.todo, _this11.deleteItem.bind(_this11, key));
         }), this.todo, this.handleInput, this.handleKeyPress, this.createNewToDoItem);
       }
     }]);
